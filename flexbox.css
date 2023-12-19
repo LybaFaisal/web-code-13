@@ -1,0 +1,45 @@
+.flexcontainer{
+    /* Parent */
+    background-color: dodgerblue;
+    display: flex;
+    height: 700px;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* flex nowrap is by default */
+    /* flex-wrap: wrap-reverse ; */
+    /* flex-flow: row wrap; the shorthand property for direction & wrap */
+    /* JustifyContentProperty is to align the items** (HoriZontally)
+    1.Center 2.Flexstart 3.FlexEnd 4.SpaceAround 5.SpaceBetween */
+    /* justify-content: center;  */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* ALIGN-ITEMS property 1.flexStart 2.Center 3.FlexEnd 4.Stretch 5.baseline (VERTICALLY)*/
+    /* align-items:center ; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: flex-start; */
+    /* align-content: stretch; */
+    /* For Perfect Centering - 1.justifyContent=Center, 2.alignitems/content=center */
+    
+}
+div {
+
+    /* child */
+    background-color:bisque;
+    margin: 10px;
+    padding: 30px;
+    font-size: 40px;
+    /* width: 500px;
+    text-align: center;
+    margin: 10px; */
+  }
